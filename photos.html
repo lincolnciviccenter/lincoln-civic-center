@@ -1,23 +1,24 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baseball Parks</title>
+    <title>Lincoln Civic Center Photos</title>
     <style>
         body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
         header, footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
         nav { background: #34495e; text-align: center; padding: 10px; }
         nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; }
-        .container { padding: 40px; background: white; margin: 20px auto; width: 90%; max-width: 900px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px; }
+        .gallery img { width: 100%; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { margin-top: 0; }
     </style>
 </head>
-
 <body>
+
 <header>
-    <h1>Baseball Parks</h1>
+    <h1>Lincoln Civic Center – Photo Gallery</h1>
 </header>
 
 <nav>
@@ -27,17 +28,20 @@
     <a href="barn.html">Stall Barn</a>
     <a href="rvpark.html">RV Park</a>
     <a href="baseball.html">Baseball</a>
-    <a href="index.html#events">Events</a>
+    <a href="photos.html">Photos</a>
     <a href="index.html#contact">Contact</a>
-<a href="photos.html">Photos</a>
 </nav>
 
-<div class="container">
-    <p>We proudly host local and regional little league games across our 5 well-maintained baseball fields. A community favorite for youth sports.</p>
-    <p><a href="index.html">← Back to Home</a></p>
+<div class="gallery">
+    <img src="logo.jpg" alt="Lincoln Civic Center Logo">
+    <img src="entrance1.jpg" alt="Entrance Sign">
+    <img src="entrance2.jpg" alt="Center with Truck">
+    <img src="baseball.jpg" alt="Baseball Fields">
 </div>
+
 <footer>
-    <p>&copy; 2025 Lincoln Civic Center</p>
+    <p>&copy; 2025 Lincoln Civic Center | All rights reserved</p>
 </footer>
+
 </body>
 </html>

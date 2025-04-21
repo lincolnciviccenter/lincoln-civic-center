@@ -1,21 +1,59 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baseball Parks</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
-        header, footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
-        nav { background: #34495e; text-align: center; padding: 10px; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; }
-        .container { padding: 40px; background: white; margin: 20px auto; width: 90%; max-width: 900px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("baseball.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background: rgba(0,0,0,0.7);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background: rgba(0,0,0,0.8);
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            margin: 20px auto;
+            width: 90%;
+            max-width: 900px;
+            border-radius: 8px;
+        }
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ffffff;
+            color: #000000;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
     </style>
 </head>
-
 <body>
+
 <header>
     <h1>Baseball Parks</h1>
 </header>
@@ -27,17 +65,19 @@
     <a href="barn.html">Stall Barn</a>
     <a href="rvpark.html">RV Park</a>
     <a href="baseball.html">Baseball</a>
-    <a href="index.html#events">Events</a>
+    <a href="photos.html">Photos</a>
     <a href="index.html#contact">Contact</a>
-<a href="photos.html">Photos</a>
 </nav>
 
 <div class="container">
     <p>We proudly host local and regional little league games across our 5 well-maintained baseball fields. A community favorite for youth sports.</p>
+    <p><a class="button" href="https://app.teampass.com/" target="_blank">Click here to visit TeamPass</a></p>
     <p><a href="index.html">← Back to Home</a></p>
 </div>
+
 <footer>
     <p>&copy; 2025 Lincoln Civic Center</p>
 </footer>
+
 </body>
 </html>

@@ -1,43 +1,82 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RV Park</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
-        header, footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
-        nav { background: #34495e; text-align: center; padding: 10px; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; }
-        .container { padding: 40px; background: white; margin: 20px auto; width: 90%; max-width: 900px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RV Park</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    header, footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #34495e;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    .container {
+      padding: 40px;
+      background: white;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
-
 <body>
+
 <header>
-    <h1>RV Park</h1>
+  <h1>RV Park</h1>
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="multipurpose.html">Multi-Purpose</a>
-    <a href="arena.html">Arena</a>
-    <a href="barn.html">Stall Barn</a>
-    <a href="rvpark.html">RV Park</a>
-    <a href="baseball.html">Baseball</a>
-    <a href="index.html#events">Events</a>
-    <a href="index.html#contact">Contact</a>
-<a href="photos.html">Photos</a>
+  <a href="index.html">Home</a>
+  <a href="multipurpose.html">Multi-Purpose</a>
+  <a href="arena.html">Arena</a>
+  <a href="barn.html">Stall Barn</a>
+  <a href="rvpark.html">RV Park</a>
+  <a href="baseball.html">Baseball</a>
+  <a href="photos.html">Photos</a>
+  <a href="events.html">Events</a>
+  <a href="index.html#contact">Contact</a>
 </nav>
 
 <div class="container">
-    <p>With 39 full-service slots, our RV Park is perfect for travelers, event participants, and long-term stays. Water, sewer, and electric hookups included.</p>
-    <p><a href="index.html">← Back to Home</a></p>
+  <p>With 39 full-service slots, our RV Park is perfect for travelers, event participants, and long-term stays. Water, sewer, and electric hookups included.</p>
+
+  <h2>Interactive RV Site Map</h2>
+  <iframe src="rv_map/index.html"></iframe>
+
+  <p><a href="index.html">← Back to Home</a></p>
 </div>
+
 <footer>
-    <p>&copy; 2025 Lincoln Civic Center</p>
+  <p>&copy; 2025 Lincoln Civic Center</p>
 </footer>
+
 </body>
 </html>

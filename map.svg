@@ -1,0 +1,45 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect id="site-1" x="110" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-2" x="170" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-3" x="230" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-4" x="290" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-5" x="350" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-6" x="410" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-7" x="470" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-8" x="530" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-9" x="590" y="100" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-10" x="50" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-11" x="110" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-12" x="170" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-13" x="230" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-14" x="290" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-15" x="350" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-16" x="410" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-17" x="470" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-18" x="530" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-19" x="590" y="160" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-20" x="50" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-21" x="110" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-22" x="170" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-23" x="230" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-24" x="290" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-25" x="350" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-26" x="410" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-27" x="470" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-28" x="530" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-29" x="590" y="220" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-30" x="50" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-31" x="110" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-32" x="170" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-33" x="230" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-34" x="290" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-35" x="350" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-36" x="410" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-37" x="470" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-38" x="530" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+<rect id="site-39" x="590" y="280" width="50" height="30" fill="#4CAF50" stroke="#000"/>
+  <rect id="bathhouse" x="200" y="200" width="80" height="40" fill="#2196F3" stroke="#000"/>
+  <rect id="basketball" x="300" y="300" width="80" height="40" fill="#FFC107" stroke="#000"/>
+</svg>

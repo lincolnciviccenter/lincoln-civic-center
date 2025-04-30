@@ -1,0 +1,12 @@
+
+To mark a site as "Rented":
+
+1. Open map.svg in a text editor.
+2. Find the site by ID, for example:
+   <rect id="site-12" ... />
+3. Add class="rented" like this:
+   <rect id="site-12" class="rented" ... />
+
+This will visually show the site as rented (red overlay).
+
+Need help? Contact lincolnciviccenter@co.lincoln.ms.us

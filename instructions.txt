@@ -1,12 +1,15 @@
 
-To mark a site as "Rented":
+INSTRUCTIONS FOR GITHUB PAGES:
 
-1. Open map.svg in a text editor.
-2. Find the site by ID, for example:
-   <rect id="site-12" ... />
-3. Add class="rented" like this:
-   <rect id="site-12" class="rented" ... />
+1. Upload the following files to your GitHub repository under the 'RV' folder/tab or desired subdirectory:
+   - index.html
+   - styles.css
+   - RV_Park_Map.png
 
-This will visually show the site as rented (red overlay).
+2. Make sure GitHub Pages is enabled in your repo settings (usually set to serve from main branch or 'docs' folder).
 
-Need help? Contact lincolnciviccenter@co.lincoln.ms.us
+3. Edit the rules section in index.html to add your park's specific rules.
+
+4. The form is powered by Formspree. You can create a free Formspree account and replace the action URL with your custom form endpoint for better management if needed.
+
+Contact: lincolnciviccenter@co.lincoln.ms.us

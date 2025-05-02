@@ -2,104 +2,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lincoln Civic Center</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("home_background.png");
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: rgba(44, 62, 80, 0.85);
-      color: white;
-      text-align: center;
-      padding: 30px 0;
-    }
-    nav {
-      background: rgba(52, 73, 94, 0.9);
-      text-align: center;
-      padding: 10px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-size: 18px;
-    }
-    .section {
-      background: rgba(255, 255, 255, 0.6);
-      color: #000;
-      margin: 20px auto;
-      padding: 30px;
-      width: 90%;
-      max-width: 1000px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      backdrop-filter: blur(5px);
-    }
-    .section h2 {
-      color: #2c3e50;
-    }
-    footer {
-      background: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Lincoln Civic Center RV Park</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Lincoln Civic Center RV Park</h1>
+    </header>
 
-<header>
-  <img src="logo.jpg" alt="Lincoln Civic Center Logo" style="max-width:300px;">
-  <h1>Lincoln Civic Center</h1>
-  <p>Brookhaven, Mississippi</p>
-</header>
+    <section class="map-section">
+        <h2>RV Site Map</h2>
+        <img src="RV_Park_Map.png" alt="Lincoln RV Park Map" class="map-img">
+        <p>* Sites marked as Rented are currently unavailable.</p>
+    </section>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="multipurpose.html">Multi-Purpose</a>
-  <a href="arena.html">Arena</a>
-  <a href="barn.html">Stall Barn</a>
-  <a href="rvpark.html">RV Park</a>
-  <a href="baseball.html">Baseball</a>
-  <a href="photos.html">Photos</a>
-  <a href="events.html">Events</a>
-  <a href="#contact">Contact</a>
-</nav>
+    <section class="form-section">
+        <h2>Reserve Your RV Spot</h2>
+        <form action="https://formspree.io/f/mwkdjbwk" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
 
-<div class="section" id="about">
-  <h2>About Us</h2>
-  <p>The Lincoln Civic Center is home to events, sports, and family-friendly gatherings in Brookhaven, MS. Our campus includes a multi-purpose building, rodeo arena, stall barn, 39-slot RV park, and five little league baseball parks.</p>
-</div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
 
-<div class="section" id="facilities">
-  <h2>Explore Our Facilities</h2>
-  <ul>
-    <li><a href="multipurpose.html">Multi-Purpose Building</a></li>
-    <li><a href="arena.html">Rodeo Arena</a></li>
-    <li><a href="barn.html">Stall Barn</a></li>
-    <li><a href="rvpark.html">RV Park</a></li>
-    <li><a href="baseball.html">Baseball Parks</a></li>
-  </ul>
-</div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
 
-<div class="section" id="contact">
-  <h2>Contact Us</h2>
-  <p>Email: lincolnciviccenter@co.lincoln.ms.us<br>
-  Phone: 601-823-9064<br>
-  Address: 1096 Beltline Road NE, Brookhaven, MS 39601</p>
-</div>
+            <label for="site">Requested Site Number:</label>
+            <input type="text" id="site" name="site" required>
 
-<footer>
-  <p>&copy; 2025 Lincoln Civic Center | All rights reserved</p>
-</footer>
+            <label for="arrival">Arrival Date:</label>
+            <input type="date" id="arrival" name="arrival" required>
 
+            <label for="departure">Departure Date:</label>
+            <input type="date" id="departure" name="departure" required>
+
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+
+            <button type="submit">Submit Reservation Request</button>
+        </form>
+    </section>
+
+    <section class="rules-section">
+        <h2>RV Park Rules</h2>
+        <p>(Insert your park rules here.)</p>
+    </section>
+
+    <footer>
+        <p>Contact us at <a href="mailto:lincolnciviccenter@co.lincoln.ms.us">lincolnciviccenter@co.lincoln.ms.us</a></p>
+    </footer>
 </body>
 </html>

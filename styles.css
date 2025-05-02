@@ -6,64 +6,39 @@ body {
     background: #f4f4f4;
     color: #333;
 }
-body.dark-mode {
-    background: #222;
-    color: #ddd;
-}
-#toggleMode {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 999;
-    padding: 10px 20px;
-}
-.map-container {
-    width: 100%;
+header, footer {
+    background: #0A2540;
+    color: white;
     text-align: center;
-    margin-top: 50px;
+    padding: 1em 0;
 }
-.map-svg {
-    width: 90%;
-    max-width: 1000px;
+.map-section, .form-section, .rules-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.map-img {
+    width: 100%;
     height: auto;
     border: 1px solid #ccc;
 }
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.7);
+form {
+    display: grid;
+    gap: 10px;
 }
-.modal-content {
-    background-color: #fff;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
-body.dark-mode .modal-content {
-    background-color: #333;
-    color: #fff;
-}
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
+label {
     font-weight: bold;
 }
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
+input, textarea, button {
+    padding: 10px;
+    font-size: 1em;
+}
+button {
+    background: #0A2540;
+    color: white;
+    border: none;
     cursor: pointer;
 }
-.rented {
-    fill: red !important;
-    opacity: 0.6;
+button:hover {
+    background: #003366;
 }
